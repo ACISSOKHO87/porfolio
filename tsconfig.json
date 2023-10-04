@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "outDir": "build", // pour le dossier de destination
+        "target": "ESNext", // pour cibler le navigateur 
+        "moduleResolution": "node",
+        "noEmitOnError": true, // pour eviter des erreurs d'inatention
+        "strict": true,
+        "noUncheckedIndexedAccess": true
+    },
+    "files": [
+        "src/app.ts"
+    ]
+}
